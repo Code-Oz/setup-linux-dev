@@ -1,0 +1,132 @@
+# Basic setup for developer
+
+## 1) Basics
+
+Very basic packages :hammer: for linux user
+
+**curl**
+
+```console
+sudo apt install curl
+```
+
+**xclip**
+
+Allow to copy output stream of a command.
+
+```console
+sudo apt-get install xclip
+```
+
+**vim**
+
+```console
+sudo apt install vim
+```
+
+**git**
+
+:link: *https://www.atlassian.com/git/tutorials/install-git*
+
+```console
+sudo apt-get install git
+```
+
+:heavy_check_mark: Check if it's correctly installed
+
+```console
+sudo apt-get install git
+```
+
+Edit .gitconfig
+
+```console
+git config --global user.email "you@example.com"
+```
+
+```console
+git config --global user.name "Your Name"
+```
+
+:triangular_flag_on_post: Optional: For automatically pull with rebase :
+
+```console
+git config --global --bool pull.rebase true
+```
+
+**node**
+
+```console
+sudo apt install nodejs
+```
+
+**npm**
+
+```console
+sudo apt install npm
+```
+
+:x: *If disk error => https://askubuntu.com/questions/386265/media-change-please-insert-the-disc-labeled-when-trying-to-install-ruby-on-ra*
+
+**nvm**
+
+```console
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+```
+
+```console
+## In the same command
+
+export NVM_DIR="$HOME/.nvm"
+
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+```
+
+## 2) Pimp my shell (oh-my-zsh)
+
+[Pimp my shell](./zsh/pimp-shell.mkd)
+
+## 3) Dev tools
+
+[Dev tools](./dev-tools.mkd)
+
+## 4) Dev software
+
+[Dev software](./dev-software.mkd)
+
+## 5) Bonus
+
+**firacode**
+
+:link: https://dev.to/josuerodriguez98/installing-firacode-on-windows-and-ubuntu-1fn1
+
+
+```console
+sudo add-apt-repository universe
+```
+
+```console
+sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe"
+```
+
+```console
+sudo apt install fonts-firacode
+```
+ 
+:heavy_check_mark: Check if its correcly installed in font manager
+
+:repeat: :computer: Restart computer
+
+:triangular_flag_on_post: Optional: Add this in vscode setting.json
+
+```json
+"editor.fontFamily": "'Fira Code'",
+"editor.fontLigatures": true,
+```
+
+**Add token github**
+
+[link](./github/add-token-ssh.mkd)
+

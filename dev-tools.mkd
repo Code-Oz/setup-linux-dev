@@ -1,0 +1,110 @@
+**docker** :whale: 
+
+```console
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common
+```
+
+```console
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+```
+
+```console
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+```
+
+```console
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
+
+:running: We will need to run docker daemon, to run it you can execute this
+
+```console
+systemctl start docker
+```
+
+But if you want to start it every time you restart your computer
+
+```console
+sudo systemctl enable docker
+```
+
+And disabled with
+
+```console
+sudo systemctl disable docker
+```
+
+:heavy_check_mark: Test if it's working
+
+```console
+docker run hello-world
+```
+
+**docker-compose** :whale:
+
+:link: https://docs.docker.com/compose/install/
+
+```console
+sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+```
+
+```console
+sudo chmod +x /usr/local/bin/docker-compose
+```
+
+:heavy_check_mark: Test if it's working
+
+```console
+docker-compose -v
+```
+
+:x: If failed, check hyperlink
+
+**mongodb**
+
+```console
+sudo apt-get install gnupg
+```
+
+```console
+wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+```
+
+https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-18-04
+
+
+```console
+sudo apt install -y mongodb
+```
+
+:running: We will need to run mongo , to run it you can execute this
+
+```console
+sudo systemctl start mongodb
+```
+
+But if you want to start it every time you restart your computer
+
+```console
+sudo systemctl enable mongodb
+```
+
+And disabled with
+
+```console
+sudo systemctl disable mongodb
+```
+
+:x: Test if it's working
+
+```console
+mongo --eval 'db.runCommand({ connectionStatus: 1 })'
+```

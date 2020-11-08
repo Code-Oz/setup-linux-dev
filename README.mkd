@@ -1,0 +1,7 @@
+## Install Dev Tools
+
+[Basic setup](./basic-setup.mkd)
+
+## Install other cool package for linux
+
+Todo

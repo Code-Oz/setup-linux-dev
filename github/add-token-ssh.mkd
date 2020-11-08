@@ -1,0 +1,30 @@
+# SSH Connection between client and github
+
+## Create SSH Key
+
+:link: https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+```console
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.
+
+At the prompt, type a secure passphrase or enter.
+
+```console
+ssh-add ~/.ssh/(name of ssh key created)
+```
+
+## Add it to github
+
+:link: https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
+
+
+:warning: COPY ONLY THE PUB SSH KEY
+```console
+xclip -selection clipboard < ~/.ssh/(name of ssh key created).pub 
+```
+
+Paste it into Github platform
+
+:triangular_flag_on_post: Optional: You can allow only SSH connection for repository

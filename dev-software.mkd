@@ -1,0 +1,146 @@
+**google chrome**
+
+:link: https://doc.ubuntu-fr.org/google_chrome
+
+```console
+sudo sh -c 'echo "deb [arch=amd64] https://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list'
+```
+
+```console
+ wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+```
+
+```console
+sudo apt-get install google-chrome-stable
+```
+
+**robot3T**
+
+:link: https://gist.github.com/abdallahokasha/37911a64ad289487387e2d1a144604ae
+
+Take the correct version, in this exemple we take `robo3t-1.2.1-linux-x86_64-3e50a65`
+
+```console
+wget https://download.robomongo.org/1.2.1/linux/robo3t-1.2.1-linux-x86_64-3e50a65.tar.gz
+```
+
+```console
+tar -xvzf robo3t-1.2.1-linux-x86_64-3e50a65.tar.gz
+```
+
+```console
+sudo mkdir /usr/local/bin/robo3t
+```
+
+Move the extracted package to usr/local/bin
+
+```console
+sudo mv  robo3t-1.2.1-linux-x86_64-3e50a65/* /usr/local/bin/robo3t
+```
+
+```console
+cd /usr/local/bin/robo3t/bin
+```
+
+```console
+sudo chmod +x robo3t ./robo3t
+```
+
+:heavy_check_mark: Check if it's correctly installed
+
+```console
+./robo3t
+```
+
+:triangular_flag_on_post: Optional: Put robot3T Icon and shortcut
+
+
+mv icon.png /usr/local/bin/robo3t/bin
+
+In order to create desktop icon for Robo3t, we can make a file in usr/share/applications
+
+```console
+sudo vim /usr/share/applications/robo3t.desktop
+```
+Copy & paste this
+
+```
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Robo3t
+Icon=/usr/local/bin/robo3t/bin/icon.png
+Exec="/usr/local/bin/robo3t/bin/robo3t"
+Comment=Robo3t 
+Categories=Development;
+Terminal=false
+StartupNotify=true
+```
+
+**postman**
+
+:link: https://gist.github.com/invinciblycool/ecc1c6e32b581b68932ac7452f4c911c
+
+```console
+sudo snap install postman
+```
+
+Take the correct version, in this example we will take 5.3.2 version
+
+```console
+tar -xzf Postman-linux-x64-5.3.2.tar.gz
+```
+
+```console
+sudo mv Postman /opt/Postman
+```
+
+```console
+sudo ln -s /opt/Postman/Postman /usr/bin/postman
+```
+
+Create desktop file
+
+```console
+cat > ~/.local/share/applications/postman.desktop <<EOL
+[Desktop Entry]
+Encoding=UTF-8
+Name=Postman
+Exec=postman
+# Before v6.1.2
+# Icon=/opt/Postman/resources/app/assets/icon.png
+Icon=/opt/Postman/app/resources/app/assets/icon.png
+Terminal=false
+Type=Application
+Categories=Development;
+EOL
+```
+
+```console
+rm Postman-linux-x64-5.3.2.tar.gz
+```
+
+**vscode**
+
+:link: https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-18-04/
+
+```console
+sudo apt install software-properties-common apt-transport-https wget
+```
+
+```console
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+```
+
+```console
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+```
+
+```console
+sudo apt install code
+```
+
+:triangular_flag_on_post: Optional: Add all configuratin from ./vscode folder
+
+
+

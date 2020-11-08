@@ -1,0 +1,59 @@
+**Install zsh**
+
+:link: https://linuxhint.com/install_zsh_shell_ubuntu_1804/
+
+```console
+sudo apt-get install zsh
+```
+
+:heavy_check_mark: Check if correctly installed
+```console
+zsh --version
+```
+
+Get location of zsh
+
+```console
+whereis zsh
+```
+
+Put it
+```console
+sudo usermod -s (zsh location) $(whoami)
+```
+
+:repeat: :computer: Restart computer
+
+```console
+sudo reboot
+```
+
+When re-starting terminal put 2 to create a default .zshrc
+
+Powerline for better interface
+
+```console
+sudo apt-get install powerline fonts-powerline 
+```
+```console
+sudo apt-get install zsh-syntax-highlighting
+```
+
+**Install oh-my-zsh and replace zsh**
+
+```console
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+Run zsh-syntax-highlighting on zshrc when zsh will be run
+```console
+echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
+```
+
+:repeat: :white_square_button: Restart terminal
+
+Copy paste .zshrc config from [zshrc](./.zshrc)
+
+:triangular_flag_on_post: Optional: Allow plugin in oh-my-zsh
+
+:star: https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet Shortcut oh-my-zsh, keep it in favorite !
