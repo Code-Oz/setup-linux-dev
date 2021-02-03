@@ -1,0 +1,32 @@
+**kubernetes**
+
+📦 **minikube:**
+
+:link: https://minikube.sigs.k8s.io/docs/start/
+
+```console
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+```
+
+```console
+sudo install minikube-linux-amd64 /usr/local/bin/minikube
+```
+
+📦 **kubectl:**
+
+:link: https://kubernetes.io/docs/tasks/tools/install-kubectl/
+
+```console
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+```
+
+```console
+sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+```
+
+
+:heavy_check_mark: Test if it's working
+
+```console
+kubectl version --client
+```
