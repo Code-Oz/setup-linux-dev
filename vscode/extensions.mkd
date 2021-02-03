@@ -10,6 +10,8 @@ CoenraadS.bracket-pair-colorizer-2@0.2.0
 
 dbaeumer.vscode-eslint@2.1.13
 
+docsmsft.docs-yaml@0.2.6
+
 donjayamanne.githistory@0.6.13
 
 eriklynd.json-tools@1.0.2
@@ -26,9 +28,13 @@ kisstkondoros.vscode-codemetrics@1.24.0
 
 ms-azuretools.vscode-docker@1.7.0
 
+ms-kubernetes-tools.vscode-kubernetes-tools@1.2.3
+
 msjsdiag.debugger-for-chrome@4.12.11
 
 octref.vetur@0.29.0
+
+redhat.vscode-yaml@0.14.0
 
 RoscoP.ActiveFileInStatusBar@1.0.3
 
