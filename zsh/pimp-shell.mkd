@@ -1,4 +1,4 @@
-**Install zsh**
+📦 **Install zsh**
 
 :link: https://linuxhint.com/install_zsh_shell_ubuntu_1804/
 
@@ -39,7 +39,7 @@ sudo apt-get install powerline fonts-powerline
 sudo apt-get install zsh-syntax-highlighting
 ```
 
-**Install oh-my-zsh and replace zsh**
+📦 **Install oh-my-zsh and replace zsh**
 
 ```console
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

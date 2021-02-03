@@ -1,7 +1,63 @@
-## Install Dev Tools
+## Install Dev Stuff
+
+## 1) Basics
 
 [Basic setup](./basic-setup.mkd)
 
-## Install other cool package for linux
+## 2) Pimp my shell (oh-my-zsh)
 
-Todo
+[Pimp my shell](./zsh/pimp-shell.mkd)
+
+## 3) Dev tools
+
+[Dev tools](./dev-tools.mkd)
+
+## 4) Dev software
+
+[Dev software](./dev-software.mkd)
+
+## 5) Bonus
+
+**firacode**
+
+:link: https://dev.to/josuerodriguez98/installing-firacode-on-windows-and-ubuntu-1fn1
+
+
+```console
+sudo add-apt-repository universe
+```
+
+```console
+sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe"
+```
+
+```console
+sudo apt install fonts-firacode
+```
+ 
+:heavy_check_mark: Check if its correcly installed in font manager
+
+:repeat: :computer: Restart computer
+
+:triangular_flag_on_post: Optional: Add this in vscode setting.json
+
+```json
+"editor.fontFamily": "'Fira Code'",
+"editor.fontLigatures": true,
+```
+
+**Add token github**
+
+[Configure Token Github](./github/add-token-ssh.mkd)
+
+Work only for SSH repository
+
+**Switch from HTTPS to SSH on Github**
+
+:link: https://docs.github.com/en/github/using-git/changing-a-remotes-url#switching-remote-urls-from-https-to-ssh
+
+## Install other cool package for linux (not linked to dev tools)
+
+🎶 Play music
+
+https://deadbeef.sourceforge.io/download.html

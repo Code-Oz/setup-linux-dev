@@ -1,54 +1,87 @@
-**docker** :whale: 
+📦 **git**
+
+:link: *https://www.atlassian.com/git/tutorials/install-git*
 
 ```console
-sudo apt-get install \
-    apt-transport-https \
-    ca-certificates \
-    curl \
-    gnupg-agent \
-    software-properties-common
+sudo apt-get install git
+```
+
+:heavy_check_mark: Check if it's correctly installed
+
+```console
+sudo apt-get install git
+```
+
+Edit .gitconfig
+
+```console
+git config --global user.email "you@example.com"
 ```
 
 ```console
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+git config --global user.name "Your Name"
+```
+
+:triangular_flag_on_post: Optional: For automatically pull with rebase :
+
+```console
+git config --global --bool pull.rebase true
+```
+
+📦 **node**
+
+```console
+sudo apt install nodejs
+```
+
+📦 **npm**
+
+```console
+sudo apt install npm
+```
+
+:x: *If disk error => https://askubuntu.com/questions/386265/media-change-please-insert-the-disc-labeled-when-trying-to-install-ruby-on-ra*
+
+📦 **nvm**
+
+```console
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 ```
 
 ```console
-sudo add-apt-repository \
-   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-   $(lsb_release -cs) \
-   stable"
+## In the same command
+
+export NVM_DIR="$HOME/.nvm"
+
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+```
+
+📦 **yarn**
+
+```console
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 ```
 
 ```console
-sudo apt-get install docker-ce docker-ce-cli containerd.io
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 ```
-
-:running: We will need to run docker daemon, to run it you can execute this
 
 ```console
-systemctl start docker
+sudo apt install yarn
 ```
 
-But if you want to start it every time you restart your computer
-
+:heavy_check_mark: Check if it's correctly installed
 ```console
-sudo systemctl enable docker
+yarn --version
 ```
 
-And disabled with
+📦 **docker** :whale: 
 
-```console
-sudo systemctl disable docker
-```
+[Docker](./docker/docker-setup.mkd)
 
-:heavy_check_mark: Test if it's working
-
-```console
-docker run hello-world
-```
-
-**docker-compose** :whale:
+📦 **docker-compose** :whale:
 
 :link: https://docs.docker.com/compose/install/
 
@@ -68,7 +101,11 @@ docker-compose -v
 
 :x: If failed, check hyperlink
 
-**mongodb**
+📦 **kubernetes**
+
+[Kubernetes](./docker/kubernetes-setup.mkd)
+
+📦 **mongodb**
 
 ```console
 sudo apt-get install gnupg
@@ -107,4 +144,12 @@ sudo systemctl disable mongodb
 
 ```console
 mongo --eval 'db.runCommand({ connectionStatus: 1 })'
+```
+
+**npm important package**
+
+📦 **typescript**
+
+```console
+npm install -g typescript
 ```
