@@ -1,20 +1,16 @@
 ## Install Dev Stuff
 
-## 1) Basics
+This repo aim to help people to install some dev stuff (JS oriented) on a new Linux machine.
 
-[Basic setup](./basic-setup.mkd)
+My name on twitter: https://twitter.com/Code__oz
 
-## 2) Pimp my shell (oh-my-zsh)
+## [1) Basic setup](./basic-setup.mkd)
 
-[Pimp my shell](./zsh/pimp-shell.mkd)
+## [2) Pimp my shell (oh-my-zsh)](./zsh/pimp-shell.mkd)
 
-## 3) Dev tools
+## [3) Dev tools](./dev-tools.mkd)
 
-[Dev tools](./dev-tools.mkd)
-
-## 4) Dev software
-
-[Dev software](./dev-software.mkd)
+## [4) Dev software](./dev-software.mkd)
 
 ## 5) Bonus
 
