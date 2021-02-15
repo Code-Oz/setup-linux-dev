@@ -98,4 +98,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# Start nvm, if not, nvm will be not recognize as command line
+source ~/.nvm/nvm.sh
 # source /usr/share/powerlevel9k/powerlevel9k.zsh-theme
