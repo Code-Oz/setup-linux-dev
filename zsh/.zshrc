@@ -101,3 +101,6 @@ source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Start nvm, if not, nvm will be not recognize as command line
 source ~/.nvm/nvm.sh
 # source /usr/share/powerlevel9k/powerlevel9k.zsh-theme
+# Set Vim as default text editot
+export VISUAL=vim
+export EDITOR="$VISUAL"
