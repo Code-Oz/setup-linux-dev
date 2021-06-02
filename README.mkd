@@ -52,8 +52,20 @@ Work only for SSH repository
 
 :link: https://docs.github.com/en/github/using-git/changing-a-remotes-url#switching-remote-urls-from-https-to-ssh
 
+**Remove Orca**
+
+```console
+sudo apt-get remove orca
+sudo apt-get remove gnome-orca
+killall orca
+```
+
 ## Install other cool package for linux (not linked to dev tools)
 
 🎶 Play music
 
 https://deadbeef.sourceforge.io/download.html
+
+SimpleScreenRecorder
+
+https://doc.ubuntu-fr.org/simplescreenrecorder
