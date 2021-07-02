@@ -1,18 +1,25 @@
 📦 **git**
 
+🐧 Linux User
 :link: *https://www.atlassian.com/git/tutorials/install-git*
 
 ```console
 sudo apt-get install git
 ```
 
+🍎 MAC User
+
+```console
+brew install git
+```
+
 :heavy_check_mark: Check if it's correctly installed
 
 ```console
-sudo apt-get install git
+git --help
 ```
 
-Edit .gitconfig
+*Edit .gitconfig*
 
 ```console
 git config --global user.email "you@example.com"
@@ -30,17 +37,28 @@ git config --global --bool pull.rebase true
 
 📦 **node**
 
+🐧 Linux User
 ```console
 sudo apt install nodejs
 ```
 
+🍎 MAC User
+```console
+brew install node
+```
+
 📦 **npm**
 
+🐧 Linux User
 ```console
 sudo apt install npm
 ```
 
 :x: *If disk error => https://askubuntu.com/questions/386265/media-change-please-insert-the-disc-labeled-when-trying-to-install-ruby-on-ra*
+
+🍎 MAC User
+
+node install npm automatically
 
 📦 **nvm**
 
@@ -58,31 +76,18 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 ```
 
-📦 **yarn**
-
-```console
-curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-```
-
-```console
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-```
-
-```console
-sudo apt install yarn
-```
-
-:heavy_check_mark: Check if it's correctly installed
-```console
-yarn --version
-```
-
 📦 **docker** :whale: 
 
-[Docker](./docker/docker-setup.mkd)
+🐧 Linux User
+[Docker](./docker/docker-setup-linux.mkd)
+
+🍎 MAC User
+
+https://docs.docker.com/docker-for-mac/install/
 
 📦 **docker-compose** :whale:
 
+🐧 Linux User
 :link: https://docs.docker.com/compose/install/
 
 ```console
@@ -101,12 +106,20 @@ docker-compose -v
 
 :x: If failed, check hyperlink
 
+🍎 MAC User
+Included in docker desktop
+
 📦 **kubernetes**
 
+🐧 Linux User
 [Kubernetes](./docker/kubernetes-setup.mkd)
+
+🍎 MAC User
+Not available yet on M1
 
 📦 **mongodb**
 
+🐧 Linux User
 ```console
 sudo apt-get install gnupg
 ```
@@ -140,6 +153,22 @@ And disabled with
 sudo systemctl disable mongodb
 ```
 
+🍎 MAC User
+
+*source:* https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
+
+```console
+brew tap mongodb/brew
+
+brew install mongodb-community@4.4
+```
+
+*Start it:*
+
+```console
+brew services start mongodb-community
+```
+
 :x: Test if it's working
 
 ```console
@@ -152,4 +181,8 @@ mongo --eval 'db.runCommand({ connectionStatus: 1 })'
 
 ```console
 npm install -g typescript
+```
+
+```console
+npm install --global yarn
 ```
