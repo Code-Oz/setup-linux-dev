@@ -16,6 +16,7 @@ My name on twitter: https://twitter.com/Code__oz
 
 **firacode**
 
+🐧 Linux User
 :link: https://dev.to/josuerodriguez98/installing-firacode-on-windows-and-ubuntu-1fn1
 
 
@@ -35,6 +36,15 @@ sudo apt install fonts-firacode
 
 :repeat: :computer: Restart computer
 
+🍎 MAC User
+:link: https://github.com/tonsky/FiraCode/wiki/Installing
+
+```console
+brew tap homebrew/cask-fonts
+
+brew install --cask font-fira-code
+```
+
 :triangular_flag_on_post: Optional: Add this in vscode setting.json
 
 ```json
@@ -52,14 +62,8 @@ Work only for SSH repository
 
 :link: https://docs.github.com/en/github/using-git/changing-a-remotes-url#switching-remote-urls-from-https-to-ssh
 
-**Remove Orca**
 
-```console
-sudo apt-get remove orca
-sudo apt-get remove gnome-orca
-killall orca
-```
-
+🐧 Linux User
 ## Install other cool package for linux (not linked to dev tools)
 
 🎶 Play music
@@ -69,3 +73,11 @@ https://deadbeef.sourceforge.io/download.html
 SimpleScreenRecorder
 
 https://doc.ubuntu-fr.org/simplescreenrecorder
+
+**Remove Orca**
+
+```console
+sudo apt-get remove orca
+sudo apt-get remove gnome-orca
+killall orca
+```

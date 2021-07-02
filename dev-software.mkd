@@ -1,5 +1,6 @@
 **google chrome**
 
+🐧 Linux User
 :link: https://doc.ubuntu-fr.org/google_chrome
 
 ```console
@@ -14,8 +15,13 @@ sudo sh -c 'echo "deb [arch=amd64] https://dl.google.com/linux/chrome/deb/ stabl
 sudo apt-get install google-chrome-stable
 ```
 
+🍎 MAC User
+
+:link: https://www.google.com/chrome/
+
 **robot3T**
 
+🐧 Linux User
 :link: https://gist.github.com/abdallahokasha/37911a64ad289487387e2d1a144604ae
 
 Take the correct version, in this exemple we take `robo3t-1.2.1-linux-x86_64-3e50a65`
@@ -77,6 +83,10 @@ Terminal=false
 StartupNotify=true
 ```
 
+🍎 MAC User
+
+:link: https://robomongo.org/
+
 **postman**
 
 :link: https://gist.github.com/invinciblycool/ecc1c6e32b581b68932ac7452f4c911c
@@ -120,7 +130,12 @@ EOL
 rm Postman-linux-x64-5.3.2.tar.gz
 ```
 
+🍎 MAC User
+:link: https://www.postman.com/downloads/
+
 **vscode**
+
+🐧 Linux User
 
 :link: https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-18-04/
 
@@ -140,7 +155,12 @@ sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/v
 sudo apt install code
 ```
 
+🍎 MAC User
+
+:link: https://code.visualstudio.com/download
+
+Configure `code` cmd -> https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line
+
+
 :triangular_flag_on_post: Optional: Add all configuratin from ./vscode folder
-
-
 
