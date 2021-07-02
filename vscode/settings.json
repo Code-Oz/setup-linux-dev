@@ -1,0 +1,20 @@
+{
+    "workbench.colorTheme": "Plastic Slate",
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "yaml.schemas": {
+        "file:///toc.schema.json": "/toc\\.yml/i"
+    },
+    "vs-kubernetes": {
+        "vs-kubernetes.helm-path.linux": "/home/thomas/.vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vs-kubernetes.draft-path.linux": "/home/thomas/.vs-kubernetes/tools/draft/linux-amd64/draft"
+    },
+    "workbench.editor.showTabs": true,
+    "workbench.editor.enablePreview": false,
+    "window.zoomLevel": 0,
+    "files.insertFinalNewline": true,
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+}
