@@ -42,6 +42,8 @@ shd101wyy.markdown-preview-enhanced@0.5.13
 
 sibiraj-s.vscode-scss-formatter@2.0.2
 
+sleistner.vscode-fileutils@3.4.5
+
 vscode-icons-team.vscode-icons@11.0.0
 
 waderyan.gitblame@6.0.0
