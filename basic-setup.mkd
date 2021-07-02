@@ -1,30 +1,65 @@
 # Basic setup for developer
-
+ 
 ## 1) Basics
+ 
+Very basic packages :hammer: for linux/mac user
 
-Very basic packages :hammer: for linux user
+🍎 MAC User
 
+📦 **brew**
+ 
+```console
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+ 
+Put brew command in term
+ 
+```console
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/oz-code/.zprofile
+ 
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+ 
 📦 **curl**
 
+🐧 Linux User
 ```console
 sudo apt install curl
 ```
 
+🍎 MAC User
+```console
+brew install curl
+```
+ 
 📦 **xclip**
-
+ 
 Allow to copy output stream of a command.
 
+🐧 Linux User
 ```console
 sudo apt-get install xclip
 ```
 
+🍎 MAC User
+```console
+brew install xclip
+```
+ 
 📦 **vim**
 
+🐧 Linux User
 ```console
 sudo apt install vim
 ```
 
-📦 **net-tools**
+🍎 MAC User
+```console
+brew install vim
+```
+
+🐧 Linux User
+📦 **net-tools** (Linux only)
 
 ```console
 sudo apt install net-tools
@@ -32,6 +67,12 @@ sudo apt install net-tools
 
 📦 **jq**
 
+🐧 Linux User
 ```console
 sudo apt-get install jq
+```
+
+🍎 MAC User
+```console
+brew install jq
 ```
