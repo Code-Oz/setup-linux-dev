@@ -18,6 +18,10 @@ eriklynd.json-tools@1.0.2
 
 esbenp.prettier-vscode@5.7.1
 
+formulahendry.auto-close-tag@0.5.12
+
+formulahendry.auto-rename-tag@0.1.8
+
 hollowtree.vue-snippets@0.1.12
 
 jeff-hykin.polacode-2019@0.5.2
@@ -26,6 +30,8 @@ kayteh.plastic-slate@1.10.0
 
 kisstkondoros.vscode-codemetrics@1.24.0
 
+mmr.vue-switcher@0.0.1
+
 ms-azuretools.vscode-docker@1.7.0
 
 ms-kubernetes-tools.vscode-kubernetes-tools@1.2.3
@@ -33,6 +39,8 @@ ms-kubernetes-tools.vscode-kubernetes-tools@1.2.3
 msjsdiag.debugger-for-chrome@4.12.11
 
 octref.vetur@0.29.0
+
+piotrpalarz.vscode-gitignore-generator@1.0.3
 
 redhat.vscode-yaml@0.14.0
 
@@ -43,6 +51,8 @@ shd101wyy.markdown-preview-enhanced@0.5.13
 sibiraj-s.vscode-scss-formatter@2.0.2
 
 sleistner.vscode-fileutils@3.4.5
+
+TabNine.tabnine-vscode@3.4.22
 
 vscode-icons-team.vscode-icons@11.0.0
 
