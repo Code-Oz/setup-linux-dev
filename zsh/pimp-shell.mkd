@@ -1,83 +1,87 @@
 🍎 MAC User
 📦 **Install Iterm**
- 
+
 https://iterm2.com/
 
 📦 **Install zsh**
- 
+
 🐧 Linux User
 :link: https://linuxhint.com/install_zsh_shell_ubuntu_1804/
 
 ```console
 sudo apt-get install zsh
 ```
- 
+
 Get location of zsh
- 
+
 ```console
 whereis zsh
 ```
- 
+
 Put it
+
 ```console
 sudo usermod -s (zsh location) $(whoami)
 ```
- 
+
 :repeat: :computer: Restart computer
- 
+
 ```console
 sudo reboot
 ```
 
 When re-starting terminal put 2 to create a default .zshrc
- 
+
 🍎 MAC User
 :link: https://sourabhbajaj.com/mac-setup/iTerm/zsh.html
- 
+
 ```console
 brew install zsh
 ```
 
 :heavy_check_mark: Check if correctly installed
+
 ```console
 zsh --version
 ```
- 
+
 📦 **Install oh-my-zsh and replace zsh**
- 
+
 ```console
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
- 
+
 **Run zsh-syntax-highlighting on zshrc when zsh will be run:**
- 
+
 🐧 Linux User
- 
+
 ```console
 echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 ```
 
 🍎 MAC User
+
 ```console
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
- 
+
 echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 ```
- 
+
 :repeat: :white_square_button: Restart terminal
- 
+
 **Customize zshrc**
- 
+
 - Custom theme `agnoster`
 - source ~/.nvm/nvm.sh (install nvm before)
- 
+
 :triangular_flag_on_post: Optional: Allow plugin in oh-my-zsh
- 
+
 :star: https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet Shortcut oh-my-zsh, keep it in favorite !
 
 **Powerline for better interface(with agnoster theme oh my zsh)**
- 
+
 🐧 Linux User
+
 ```console
 sudo apt-get install powerline fonts-powerline
 ```
@@ -87,19 +91,30 @@ sudo apt-get install zsh-syntax-highlighting
 ```
 
 🍎 MAC User
+
 ```console
 # clone
 git clone https://github.com/powerline/fonts.git --depth=1
- 
+
 # install
 cd fonts
- 
+
 ./install.sh
- 
+
 # clean-up a bit
 cd ..
- 
+
 rm -rf fonts
 ```
 
 Open iTerm2->Preferences->Profiles->Change Font-> Meslo LG S DZ Regular for Powerline
+
+Bonus commands
+
+Add
+
+**mkdir + cd**
+
+```console
+mkcdir () { mkdir -p -- "$1" && cd -P -- "$1" }
+```
