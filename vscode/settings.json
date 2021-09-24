@@ -17,4 +17,5 @@
     "window.zoomLevel": 0,
     "files.insertFinalNewline": true,
     "typescript.preferences.importModuleSpecifier": "non-relative",
+    "fileutils.typeahead.enabled": false
 }
