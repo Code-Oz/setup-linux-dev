@@ -17,5 +17,12 @@
     "window.zoomLevel": 0,
     "files.insertFinalNewline": true,
     "typescript.preferences.importModuleSpecifier": "non-relative",
-    "fileutils.typeahead.enabled": false
+    "fileutils.typeahead.enabled": false,
+        "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    }
 }
