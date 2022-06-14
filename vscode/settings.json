@@ -1,6 +1,10 @@
 {
     "workbench.colorTheme": "Plastic Slate",
     "editor.fontFamily": "'Fira Code'",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.editor.enablePreview": true,
+    "editor.formatOnSave": true,
     "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
@@ -12,16 +16,27 @@
         "vs-kubernetes.helm-path.linux": "/home/thomas/.vs-kubernetes/tools/helm/linux-amd64/helm",
         "vs-kubernetes.draft-path.linux": "/home/thomas/.vs-kubernetes/tools/draft/linux-amd64/draft"
     },
+    "files.associations": {
+        ".env": "plaintext",
+        "*.ts": "typescript"
+    },    
     "workbench.editor.showTabs": true,
-    "workbench.editor.enablePreview": false,
     "window.zoomLevel": 0,
     "files.insertFinalNewline": true,
     "typescript.preferences.importModuleSpecifier": "non-relative",
+    "workbench.editor.splitInGroupLayout": "vertical",
+    "bracket-pair-colorizer-2.depreciation-notice": false,
     "fileutils.typeahead.enabled": false,
         "editor.formatOnSave": true,
     "[javascript]": {
         "editor.formatOnSave": true
     },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },    
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+     },
     "editor.codeActionsOnSave": {
         "source.fixAll": true
     }
