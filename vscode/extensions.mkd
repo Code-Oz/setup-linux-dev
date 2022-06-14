@@ -8,11 +8,17 @@ bierner.markdown-mermaid@1.9.0
 
 CoenraadS.bracket-pair-colorizer-2@0.2.0
 
+code-oz.what-is-operator-javascript@1.0.0
+
+CoenraadS.bracket-pair-colorizer-2@0.2.4
+
 dbaeumer.vscode-eslint@2.1.13
 
 docsmsft.docs-yaml@0.2.6
 
 donjayamanne.githistory@0.6.13
+
+emeraldwalk.RunOnSave@0.2.0
 
 eriklynd.json-tools@1.0.2
 
@@ -21,6 +27,8 @@ esbenp.prettier-vscode@5.7.1
 formulahendry.auto-close-tag@0.5.12
 
 formulahendry.auto-rename-tag@0.1.8
+
+george-alisson.html-preview-vscode@0.2.5
 
 hollowtree.vue-snippets@0.1.12
 
@@ -55,6 +63,8 @@ sleistner.vscode-fileutils@3.4.5
 TabNine.tabnine-vscode@3.4.22
 
 vscode-icons-team.vscode-icons@11.0.0
+
+Vue.volar@0.37.8
 
 waderyan.gitblame@6.0.0
 
