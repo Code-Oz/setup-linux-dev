@@ -1,43 +1,57 @@
 {
-    "workbench.colorTheme": "Plastic Slate",
-    "editor.fontFamily": "'Fira Code'",
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.editor.untitled.hint": "hidden",
-    "workbench.editor.enablePreview": true,
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.unicodeHighlight.allowedCharacters": {
+    "７": true
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "yaml.schemas": {
+    "file:///toc.schema.json": "/toc\\.yml/i"
+  },
+  "files.insertFinalNewline": true,
+  "files.associations": {
+    ".env": "plaintext",
+    "*.ts": "typescript"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.editor.enablePreview": true,
+  "workbench.colorTheme": "Plastic Slate",
+  "vsicons.dontShowNewVersionMessage": true,
+  "fileutils.typeahead.enabled": false,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  // "[vue]": {
+  //   "editor.defaultFormatter": "Vue.volar"
+  // },
+  "[javascript]": {
     "editor.formatOnSave": true,
-    "editor.fontLigatures": true,
-    "editor.minimap.enabled": false,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "yaml.schemas": {
-        "file:///toc.schema.json": "/toc\\.yml/i"
-    },
-    "vs-kubernetes": {
-        "vs-kubernetes.helm-path.linux": "/home/thomas/.vs-kubernetes/tools/helm/linux-amd64/helm",
-        "vs-kubernetes.draft-path.linux": "/home/thomas/.vs-kubernetes/tools/draft/linux-amd64/draft"
-    },
-    "files.associations": {
-        ".env": "plaintext",
-        "*.ts": "typescript"
-    },    
-    "workbench.editor.showTabs": true,
-    "window.zoomLevel": 0,
-    "files.insertFinalNewline": true,
-    "typescript.preferences.importModuleSpecifier": "non-relative",
-    "workbench.editor.splitInGroupLayout": "vertical",
-    "bracket-pair-colorizer-2.depreciation-notice": false,
-    "fileutils.typeahead.enabled": false,
-        "editor.formatOnSave": true,
-    "[javascript]": {
-        "editor.formatOnSave": true
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },    
-    "[vue]": {
-        "editor.defaultFormatter": "Vue.volar"
-     },
-    "editor.codeActionsOnSave": {
-        "source.fixAll": true
-    }
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "powermode.enabled": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1
 }
