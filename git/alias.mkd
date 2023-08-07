@@ -1,0 +1,5 @@
+Some alias for git
+
+git toto (Show all commits from branches)
+
+`git config --global alias.toto "log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold white)%s%C(reset) %C(green)(%ar)%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)' --all"`
