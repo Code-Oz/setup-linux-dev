@@ -110,3 +110,13 @@ https://github.com/ogham/exa
 ```console
 brew install exa
 ```
+
++ https://github.com/ogham/exa/issues/1107
+
+```console
+brew tap homebrew/cask-fonts
+
+brew install font-fira-code-nerd-font
+```
+
+And switch to Firacode nerd font Mono into iTerm2 settings -> Profiles -> Text -> Font
