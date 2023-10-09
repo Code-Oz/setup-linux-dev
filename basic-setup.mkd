@@ -122,3 +122,16 @@ brew install font-fira-code-nerd-font
 ```
 
 And switch to Firacode nerd font Mono into iTerm2 settings -> Profiles -> Text -> Font
+
++ Autocomplete -> git clone https://github.com/eza-community/eza.git
+
+pwd where the repo is and add it bellow
+
+```console
+export FPATH="/Users/oz-code/Documents/eza/completions/zsh:$FPATH"
+if type brew &>/dev/null; then
+    FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+    autoload -Uz compinit
+    compinit
+fi
+```
