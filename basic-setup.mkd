@@ -111,6 +111,8 @@ https://github.com/eza-community/eza
 brew install eza
 ```
 
+Ex: eza src -TlR --icons
+
 + https://github.com/ogham/exa/issues/1107
 
 ```console
