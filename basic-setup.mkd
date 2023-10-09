@@ -102,13 +102,13 @@ https://github.com/boyter/scc
 brew install scc
 ```
 
-📦 **EXA**
+📦 **EZA**
+https://github.com/eza-community/eza
 
 🍎 MAC User
-https://github.com/ogham/exa
 
 ```console
-brew install exa
+brew install eza
 ```
 
 + https://github.com/ogham/exa/issues/1107
