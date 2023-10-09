@@ -92,3 +92,21 @@ brew install jq
 ```console
 brew install coreutils
 ```
+
+📦 **SCC**
+
+🍎 MAC User
+https://github.com/boyter/scc
+
+```console
+brew install scc
+```
+
+📦 **EXA**
+
+🍎 MAC User
+[https://github.com/boyter/scc](https://github.com/ogham/exa)
+
+```console
+brew install exa
+```
