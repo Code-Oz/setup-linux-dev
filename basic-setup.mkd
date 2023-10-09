@@ -125,7 +125,7 @@ And switch to Firacode nerd font Mono into iTerm2 settings -> Profiles -> Text -
 
 + Autocomplete -> git clone https://github.com/eza-community/eza.git
 
-pwd where the repo is and add it bellow
+pwd where the repo is and add it bellow + add alias to show icon by default when using eza
 
 ```console
 export FPATH="/Users/oz-code/Documents/eza/completions/zsh:$FPATH"
@@ -134,4 +134,5 @@ if type brew &>/dev/null; then
     autoload -Uz compinit
     compinit
 fi
+alias eza="eza --icons"
 ```
