@@ -119,7 +119,7 @@ mkcdir () { mkdir -p -- "$1" && cd -P -- "$1" }
 
 And don't forget to `source ~/.zshrc`
 
-Other Font
+**Add Other Font**
 
 ```console
 brew tap homebrew/cask-fonts
@@ -128,3 +128,7 @@ brew install font-fira-code-nerd-font
 ```
 
 Open iTerm2->Preferences->Profiles->Change Font-> Nerd font
+
+**Add Keymapping**
+
+https://stackoverflow.com/questions/6205157/how-to-set-keyboard-shortcuts-to-jump-to-beginning-end-of-line
