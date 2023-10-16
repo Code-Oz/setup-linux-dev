@@ -109,12 +109,22 @@ rm -rf fonts
 
 Open iTerm2->Preferences->Profiles->Change Font-> Meslo LG S DZ Regular for Powerline
 
-Bonus commands
+Bonus
 
-Add
-
-**mkdir + cd**
+**mkdir + cd** COMMAND
 
 ```console
 mkcdir () { mkdir -p -- "$1" && cd -P -- "$1" }
 ```
+
+And don't forget to `source ~/.zshrc`
+
+Other Font
+
+```console
+brew tap homebrew/cask-fonts
+
+brew install font-fira-code-nerd-font
+```
+
+Open iTerm2->Preferences->Profiles->Change Font-> Nerd font
