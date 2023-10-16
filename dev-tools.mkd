@@ -39,6 +39,8 @@ git config --global --bool pull.rebase true
 
 📦 **node**
 
+You can install node in many ways, just using the command bellow, or move into nvm section (I recommended) ! 
+
 🐧 Linux User
 ```console
 sudo apt install nodejs
@@ -47,6 +49,39 @@ sudo apt install nodejs
 🍎 MAC User
 ```console
 brew install node
+```
+
+📦 **nvm**
+
+https://nodejs.org/en/download/package-manager#nvm
+
+```console
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+```
+
+Add global command
+
+```console
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+```
+
+You can choose the correct node version to install
+
+```console
+ nvm install 16.13.2
+```
+
+Don't remember why I add the section bellow
+
+```console
+## In the same command
+
+export NVM_DIR="$HOME/.nvm"
+
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 ```
 
 📦 **npm**
@@ -60,23 +95,7 @@ sudo apt install npm
 
 🍎 MAC User
 
-node install npm automatically
-
-📦 **nvm**
-
-```console
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
-```
-
-```console
-## In the same command
-
-export NVM_DIR="$HOME/.nvm"
-
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-```
+node install npm automatically (even with nvm installation)
 
 📦 **docker** :whale: 
 
