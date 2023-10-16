@@ -132,3 +132,14 @@ Open iTerm2->Preferences->Profiles->Change Font-> Nerd font
 **Add Keymapping**
 
 https://stackoverflow.com/questions/6205157/how-to-set-keyboard-shortcuts-to-jump-to-beginning-end-of-line
+
+Check the section bellow:
+
+```
+Open Preferences
+Click "Profile" tab
+Select a profile in the list on the left (eg "Default")
+Click "Keys" tab
+Click "Key Mappings" tab (if it exists)
+Click the "Presets" dropdown and select "Natural Text Editing"
+```
