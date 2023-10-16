@@ -89,6 +89,8 @@ StartupNotify=true
 
 **postman**
 
+🐧 Linux User
+
 :link: https://gist.github.com/invinciblycool/ecc1c6e32b581b68932ac7452f4c911c
 
 ```console
