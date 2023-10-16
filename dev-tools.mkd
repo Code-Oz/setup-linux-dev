@@ -1,5 +1,7 @@
 📦 **git**
 
+Note: If you installed oh-my-zsh before, it should be installed by it.
+
 🐧 Linux User
 :link: *https://www.atlassian.com/git/tutorials/install-git*
 
