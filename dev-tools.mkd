@@ -69,7 +69,9 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 You can choose the correct node version to install
 
 ```console
- nvm install 16.13.2
+nvm install 16.13.2
+
+nvm alias default 16.13.2 // if you want to set a version by default
 ```
 
 Don't remember why I add the section bellow
