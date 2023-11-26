@@ -102,7 +102,7 @@ node install npm automatically (even with nvm installation)
 📦 **docker** :whale: 
 
 🐧 Linux User
-[Docker](./docker/docker-setup-linux.mkd)
+[Docker](https://docs.docker.com/engine/install/ubuntu/#installation-methods)
 
 🍎 MAC User
 
@@ -111,23 +111,7 @@ https://docs.docker.com/docker-for-mac/install/
 📦 **docker-compose** :whale:
 
 🐧 Linux User
-:link: https://docs.docker.com/compose/install/
-
-```console
-sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-```
-
-```console
-sudo chmod +x /usr/local/bin/docker-compose
-```
-
-:heavy_check_mark: Test if it's working
-
-```console
-docker-compose -v
-```
-
-:x: If failed, check hyperlink
+Included in the docker installation above
 
 🍎 MAC User
 Included in docker desktop
