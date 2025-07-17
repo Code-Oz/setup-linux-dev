@@ -70,5 +70,60 @@
       "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml",
       "*.mts": "${capture}.typegen.ts",
       "*.cts": "${capture}.typegen.ts"
+    },
+    "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
     }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "p"],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["<leader>", "P"],
+      "commands": ["workbench.files.action.showActiveFileInExplorer"]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-p>": false,
+    "<C-c>": false,
+    "<C-x>": false,
+    "<C-a>": false
+  },
+  "// To improve performance": "",
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+    "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": ["javascript", "typescript", "vue"],
+  
 }
