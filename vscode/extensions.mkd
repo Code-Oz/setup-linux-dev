@@ -76,4 +76,24 @@ wix.vscode-import-cost@2.12.0
 
 wmaurer.change-case@1.0.0
 
+https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-containers
+
+https://marketplace.visualstudio.com/items?itemName=dyno-nguyen.vscode-dynofileutils
+
+https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+
+https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest
+
+https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop
+
+https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-yaml
+
+https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced
+
+https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
+
+https://marketplace.visualstudio.com/items?itemName=vscodevim.vim
+
+https://marketplace.visualstudio.com/items?itemName=statelyai.stately-vscode
+
 
