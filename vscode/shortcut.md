@@ -1,3 +1,4 @@
+```json
 // Place your key bindings in this file to override the defaults
 [
   {
@@ -116,3 +117,4 @@
     "when": "terminalFocus"
   }
 ]
+```
