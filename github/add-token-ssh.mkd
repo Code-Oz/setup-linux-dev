@@ -14,6 +14,8 @@ At the prompt, type a secure passphrase or enter.
 Keep in memory ssh key so you don't need to re-input password when git command
 
 ```console
+eval "$(ssh-agent -s)" // run agent
+
 ssh-add ~/.ssh/(name of ssh key created)
 ```
 
