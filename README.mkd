@@ -40,9 +40,11 @@ sudo apt install fonts-firacode
 :link: https://github.com/tonsky/FiraCode/wiki/Installing
 
 ```console
-brew tap homebrew/cask-fonts
+brew tap homebrew/cask-fonts // deprecated
 
-brew install --cask font-fira-code
+brew install --cask font-fira-code // deprecated
+
+brew install font-fira-code // use this now
 ```
 
 :triangular_flag_on_post: Optional: Add this in vscode setting.json
