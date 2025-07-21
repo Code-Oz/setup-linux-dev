@@ -143,3 +143,13 @@ Click "Keys" tab
 Click "Key Mappings" tab (if it exists)
 Click the "Presets" dropdown and select "Natural Text Editing"
 ```
+
+Set by default
+
+```
+chsh -s $(which zsh)
+
+echo $SHELL // check if /bin/zsh 
+```
+
+zsh use login shell by default
