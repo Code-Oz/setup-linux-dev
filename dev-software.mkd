@@ -163,6 +163,16 @@ sudo apt install code
 
 Configure `code` cmd -> https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line
 
+Configure the path with VS Code
+Launch VS Code
+
+Open the Command Palette (Cmd+Shift+P), type 'shell command', and run the Shell Command: Install 'code' command in PATH command.
 
 :triangular_flag_on_post: Optional: Add all configuratin from ./vscode folder
+
+## Db heaver
+
+https://dbeaver.io/
+
+
 
