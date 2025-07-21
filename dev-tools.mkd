@@ -46,7 +46,7 @@ You can install node in many ways, just using the command bellow, or move into n
 sudo apt install nodejs
 ```
 
-🍎 MAC User
+🍎 MAC User (not recommended)
 ```console
 brew install node
 ```
@@ -69,22 +69,12 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 You can choose the correct node version to install
 
 ```console
-nvm install 16.13.2
+nvm install 16.13.2 // or nvm install node (latest version)
 
 nvm alias default 16.13.2 // if you want to set a version by default
+// or nvm alias default node
 ```
 
-Don't remember why I add the section bellow
-
-```console
-## In the same command
-
-export NVM_DIR="$HOME/.nvm"
-
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-```
 
 📦 **npm**
 
