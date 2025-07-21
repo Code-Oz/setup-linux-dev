@@ -11,6 +11,8 @@ When you're prompted to "Enter a file in which to save the key," press Enter. Th
 
 At the prompt, type a secure passphrase or enter.
 
+Keep in memory ssh key so you don't need to re-input password when git command
+
 ```console
 ssh-add ~/.ssh/(name of ssh key created)
 ```
